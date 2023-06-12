@@ -3,16 +3,16 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:24948",
-      "sslPort": 44334
+      "applicationUrl": "http://localhost:56258",
+      "sslPort": 44364
     }
   },
   "profiles": {
-    "realtime_chat": {
+    "chat.backend": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,
-      "applicationUrl": "https://localhost:7224;http://localhost:5198",
+      "applicationUrl": "https://localhost:7079;http://localhost:5114",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

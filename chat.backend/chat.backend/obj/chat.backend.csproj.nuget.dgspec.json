@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mabrchaouen\\Desktop\\S2\\DesignPattern\\realtime-chat\\realtime-chat\\realtime-chat.csproj": {}
+    "C:\\Users\\mabrchaouen\\Desktop\\S2\\DesignPattern\\realtime-chat\\chat.backend\\chat.backend\\chat.backend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mabrchaouen\\Desktop\\S2\\DesignPattern\\realtime-chat\\realtime-chat\\realtime-chat.csproj": {
+    "C:\\Users\\mabrchaouen\\Desktop\\S2\\DesignPattern\\realtime-chat\\chat.backend\\chat.backend\\chat.backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mabrchaouen\\Desktop\\S2\\DesignPattern\\realtime-chat\\realtime-chat\\realtime-chat.csproj",
-        "projectName": "realtime-chat",
-        "projectPath": "C:\\Users\\mabrchaouen\\Desktop\\S2\\DesignPattern\\realtime-chat\\realtime-chat\\realtime-chat.csproj",
+        "projectUniqueName": "C:\\Users\\mabrchaouen\\Desktop\\S2\\DesignPattern\\realtime-chat\\chat.backend\\chat.backend\\chat.backend.csproj",
+        "projectName": "chat.backend",
+        "projectPath": "C:\\Users\\mabrchaouen\\Desktop\\S2\\DesignPattern\\realtime-chat\\chat.backend\\chat.backend\\chat.backend.csproj",
         "packagesPath": "C:\\Users\\mabrchaouen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mabrchaouen\\Desktop\\S2\\DesignPattern\\realtime-chat\\realtime-chat\\obj\\",
+        "outputPath": "C:\\Users\\mabrchaouen\\Desktop\\S2\\DesignPattern\\realtime-chat\\chat.backend\\chat.backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mabrchaouen\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("realtime-chat")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("chat.backend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("realtime-chat")]
-[assembly: System.Reflection.AssemblyTitleAttribute("realtime-chat")]
+[assembly: System.Reflection.AssemblyProductAttribute("chat.backend")]
+[assembly: System.Reflection.AssemblyTitleAttribute("chat.backend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Généré par la classe MSBuild WriteCodeFragment.
