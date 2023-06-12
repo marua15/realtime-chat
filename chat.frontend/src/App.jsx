@@ -6,13 +6,7 @@ import Footer from "./components/footer/Footer";
 import Home from "./pages/home/Home";
 
 
-function App() {
-  const Layout = () => {
-    return (
-      <div className="app">
-        <Navbar />
-        <Outlet />
-        <Footer />
+
       </div>
     );
   };
