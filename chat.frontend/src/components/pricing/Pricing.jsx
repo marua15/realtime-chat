@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import "./Pricing.scss"
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 
 const Pricing = () => {
@@ -8,7 +9,7 @@ const Pricing = () => {
     <section className="pricing" id='price'>
       <div className="container">
         <div className="left">
-            <img src="./img/free.png" alt="" />
+            <LazyLoadImage src="./img/free.png" alt="" />
         </div>
         <div className="right">
             <h2>Simple and Transparent Pricing</h2>

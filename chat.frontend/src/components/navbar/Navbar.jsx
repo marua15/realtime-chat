@@ -24,9 +24,9 @@ const Navbar = () => {
         </div>
 
         <div className="links">
-            <a href='#feat' className='link2'><span>Home</span></a>
-            <a href='#price' className='link2'><span>Pricing</span> </a>
-            <a href='#ab' className='link2'><span>About</span></a>
+            <a href='#feat' className='link'><span>Home</span></a>
+            <a href='#price' className='link'><span>Pricing</span> </a>
+            <a href='#ab' className='link'><span>About</span></a>
 
             {/* <span>About</span> */}
             {/* <span>Sign In</span> */}

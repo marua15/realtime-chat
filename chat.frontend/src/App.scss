@@ -43,6 +43,7 @@
 
 
 *{
+  
     scroll-behavior: smooth;
 
 
@@ -57,20 +58,14 @@
      
     /* Handle */
     ::-webkit-scrollbar-thumb {
-      background: rgba(31, 175, 243, 0.534); 
+      background: rgba(166, 167, 215, 0.534); 
       border-radius: 10px;
     }
     ::-webkit-scrollbar-thumb:hover {
-      background: rgba(137, 229, 253, 0.534);
+      background: rgba(89, 91, 207, 0.534);
     }
   .link{
       text-decoration: none;
       color: inherit;
   }
-  .link2{
-    // transition: 1s all ease;
-    text-decoration: none;
-    color: inherit;
-    // scroll-behavior: smooth;
-}
 }

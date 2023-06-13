@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Featured.scss"
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const Featured = () => {
   return (
@@ -16,7 +17,7 @@ const Featured = () => {
                 </div>
             </div>
             <div className="right">
-                <img src="./img/messenger.png" alt="" />
+                <LazyLoadImage src="./img/messenger.png" alt="" />
             </div>
         </div>
     </div>

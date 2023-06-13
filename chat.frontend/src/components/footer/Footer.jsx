@@ -1,5 +1,6 @@
 import React from 'react'
 import './Footer.scss'
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const Footer = () => {
   return (
@@ -14,12 +15,12 @@ const Footer = () => {
     <ul className="social-icon">
         <li className="social-icon__item">
           <a className="social-icon__link" href="https://github.com/marua15">
-            <img src="./img/github-icon.png" alt="" />
+            <LazyLoadImage src="./img/github-icon.png" alt="" />
           </a>
         </li>
         <li className="social-icon__item">
           <a className="social-icon__link" href="https://github.com/HAITAME">
-          <img src="./img/github-icon.png" alt="" />
+          <LazyLoadImage src="./img/github-icon.png" alt="" />
         </a></li>
       
     </ul>
