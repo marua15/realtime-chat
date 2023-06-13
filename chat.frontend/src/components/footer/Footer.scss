@@ -108,6 +108,15 @@
   bottom: 20px;
   animation: animate 3s linear infinite;
 }
+// @keyframes animate {
+//   0% {
+//     background-position-x: -1000px;
+//   }
+//   100% {
+//     background-position-x: 0px;
+//   }
+// }
+
 
 @keyframes animateWaves {
   0% {
@@ -126,6 +135,7 @@
     background-position-x: 0px;
   }
 }
+
 
 img {
     width: 24px;
