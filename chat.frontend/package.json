@@ -13,7 +13,6 @@
         "@microsoft/signalr": "^7.0.5",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
-        "react-pwa-install": "^1.0.12",
         "react-router-dom": "^6.12.1",
         "sass": "^1.63.3"
     },
