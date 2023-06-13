@@ -46,7 +46,10 @@
 
   
         }
-  
+        
+      Link{
+         
+      }
         button {
            color: white;
            font-weight: bold;
@@ -76,6 +79,9 @@
         }
       }
     }
+    .join{
+      display: none;
+     }
   }
   
 }

@@ -1,7 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import './Navbar.scss'
+import { useLocation } from 'react-router-dom'
+import { Link } from 'react-router-dom'
+
 
 const Navbar = () => {
+  const {pathname} =  useLocation()
 
 
   const [active,setActive] = useState(false)
@@ -22,6 +26,7 @@ const Navbar = () => {
              <span>ChatX</span>
           </div>
         </div>
+        <div className= {pathname !=="/" ? "join " :""}>
 
         <div className="links">
             <a href='#feat' className='link'><span>Home</span></a>
@@ -30,8 +35,11 @@ const Navbar = () => {
 
             {/* <span>About</span> */}
             {/* <span>Sign In</span> */}
+            <Link to="/mssg" className='link'>               
 
-            <button className={active ?"  active" : " "}>Join</button>
+                  <button className={active ?"  active" : " "}>Join</button>
+            </Link>
+          </div>
 
         </div>
       </div>
