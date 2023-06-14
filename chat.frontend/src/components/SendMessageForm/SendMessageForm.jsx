@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import './SendMessageForm.scss'
 const SendMessageForm = ({ sendMessage }) => {
   const [message, setMessage] = useState('');
 
@@ -14,6 +14,8 @@ const SendMessageForm = ({ sendMessage }) => {
   };
 
   return (
+    <div className="send">
+
     <form onSubmit={handleSubmit}>
       <input
         type="text"
@@ -25,6 +27,7 @@ const SendMessageForm = ({ sendMessage }) => {
         Send
       </button>
     </form>
+    </div>
   );
 };
 
