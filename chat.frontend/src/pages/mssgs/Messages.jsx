@@ -59,7 +59,6 @@ const Messages = () => {
     }
   
     return( <div className='log'>
-      <h2>MyChat</h2>
       <hr className='line' />
       {!connection
         ? <Lobby joinRoom={joinRoom} />

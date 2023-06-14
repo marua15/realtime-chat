@@ -1,52 +1,56 @@
-// Lobby.scss
-
-$primary-color: #007bff;
-$success-color: #28a745;
-
 .lobby {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 20px;
-  background-color: #f5f5f5;
+  background-color: #f2f2f2;
+  height: 500px;
 }
 
 .form-group {
-  margin-bottom: 15px;
-  width: 300px;
-
-  input {
-    width: 100%;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    transition: border-color 0.3s ease;
-
-    &:focus {
-      border-color: $primary-color;
-      outline: none;
-    }
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
 }
 
-.btn {
-  padding: 10px 20px;
-  border: none;
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 10px;
+  width: 300px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
   border-radius: 4px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+}
+select {
+  width: 320px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+button {
+ width: 120px;
+                height: 50px;
+                border-radius: 5px;
+                font-weight: bold;
+                background-color:rgb(74, 127, 218);
+                color: white;
+                border: none;
+    
+                cursor: pointer;
+                &:hover{
+                    background-color: rgb(108, 135, 222);
+                    color: white;
+                 }
+}
 
-  &.btn-success {
-    background-color: $success-color;
-    color: #fff;
-
-    &:hover {
-      background-color: darken($success-color, 10%);
-    }
-  }
-
-  &:disabled {
-    opacity: 0.5;
-    cursor: not-allowed;
-  }
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
 }
