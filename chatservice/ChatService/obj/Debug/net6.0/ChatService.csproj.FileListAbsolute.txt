@@ -50,3 +50,12 @@ C:\Users\pro\OneDrive - Universite Abdelmalek Essaadi\Documents\LSI\S2\Design pa
 C:\Users\pro\OneDrive - Universite Abdelmalek Essaadi\Documents\LSI\S2\Design pattern\realtime-chat\chatservice\ChatService\obj\Debug\net6.0\ChatService.pdb
 C:\Users\pro\OneDrive - Universite Abdelmalek Essaadi\Documents\LSI\S2\Design pattern\realtime-chat\chatservice\ChatService\obj\Debug\net6.0\ChatService.genruntimeconfig.cache
 C:\Users\pro\OneDrive - Universite Abdelmalek Essaadi\Documents\LSI\S2\Design pattern\realtime-chat\chatservice\ChatService\obj\Debug\net6.0\ref\ChatService.dll
+C:\Users\mabrchaouen\Desktop\S2\DesignPattern\realtime-chat\chatservice\Chatservice\obj\Debug\net6.0\ChatService.csproj.AssemblyReference.cache
+C:\Users\mabrchaouen\Desktop\S2\DesignPattern\realtime-chat\chatservice\Chatservice\obj\Debug\net6.0\ChatService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mabrchaouen\Desktop\S2\DesignPattern\realtime-chat\chatservice\Chatservice\obj\Debug\net6.0\ChatService.AssemblyInfoInputs.cache
+C:\Users\mabrchaouen\Desktop\S2\DesignPattern\realtime-chat\chatservice\Chatservice\obj\Debug\net6.0\ChatService.AssemblyInfo.cs
+C:\Users\mabrchaouen\Desktop\S2\DesignPattern\realtime-chat\chatservice\Chatservice\obj\Debug\net6.0\ChatService.csproj.CoreCompileInputs.cache
+C:\Users\mabrchaouen\Desktop\S2\DesignPattern\realtime-chat\chatservice\Chatservice\obj\Debug\net6.0\ChatService.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\mabrchaouen\Desktop\S2\DesignPattern\realtime-chat\chatservice\Chatservice\obj\Debug\net6.0\ChatService.dll
+C:\Users\mabrchaouen\Desktop\S2\DesignPattern\realtime-chat\chatservice\Chatservice\obj\Debug\net6.0\refint\ChatService.dll
+C:\Users\mabrchaouen\Desktop\S2\DesignPattern\realtime-chat\chatservice\Chatservice\obj\Debug\net6.0\ChatService.pdb

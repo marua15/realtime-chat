@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dFIq6idvvwk7oWWEqRgv/YGo0z4vPMPvSyeIOjGkN3WluztrL3Z+WnwGuFHQcwuDZIVqEtwwDRlK9c8utvwLcA==",
+  "dgSpecHash": "sQt9AhPnmgnwum6WZjZ0Rmicl9iqJQ9J58kJsmd5dMziwEpkm7sU856Lj8keT4ggh/gWXDJ5MdjJO5N+CEy/zw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pro\\OneDrive - Universite Abdelmalek Essaadi\\Documents\\LSI\\S2\\Design pattern\\realtime-chat\\chatservice\\ChatService\\ChatService.csproj",
+  "projectFilePath": "C:\\Users\\mabrchaouen\\Desktop\\S2\\DesignPattern\\realtime-chat\\chatservice\\Chatservice\\ChatService.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

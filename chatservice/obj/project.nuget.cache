@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WPOk1mrSWIUTulnVnzI6TaGZ5vp44QkXqV9rsYBMKXsgqCJexGi8O1WWonnT5sKLSvgrPVHfEktpeuCK6LBAPg==",
+  "dgSpecHash": "h67yNpuiH/FhzofuuM7T4h/k2XDI3LOeWDV/aRHJCdHEKxhszHZjh+hi9O2ChuZbGsXe0f8fF8Bh9V5XOnLiHg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mabrchaouen\\Desktop\\S2\\DesignPattern\\realtime-chat\\chat.backend\\chat.backend\\chat.backend.csproj",
+  "projectFilePath": "C:\\Users\\mabrchaouen\\Desktop\\S2\\DesignPattern\\realtime-chat\\chatservice\\chat.backend.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
