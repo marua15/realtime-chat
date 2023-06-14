@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using ChatService;
 using System.Linq;
 using System;
+using ChatService.Observer;
 
 namespace ChatService.Hubs
 {
@@ -25,9 +26,9 @@ namespace ChatService.Hubs
         {
             if (_connections.TryGetValue(Context.ConnectionId, out UserConnection userConnection))
             {
-                /* _connections.Remove(Context.ConnectionId);
+                 _connections.Remove(Context.ConnectionId);
                  Clients.Group(userConnection.Room).SendAsync("ReceiveMessage", _botUser, $"{userConnection.User} has left");
-                 SendUsersConnected(userConnection.Room);*/
+                 SendUsersConnected(userConnection.Room);
 
                 _connections.Remove(Context.ConnectionId);
                 NotifyUserLeft(userConnection.Room, userConnection.User);
@@ -39,13 +40,13 @@ namespace ChatService.Hubs
 
         public async Task JoinRoom(UserConnection userConnection)
         {
-            /* await Groups.AddToGroupAsync(Context.ConnectionId, userConnection.Room);
+             await Groups.AddToGroupAsync(Context.ConnectionId, userConnection.Room);
 
              _connections[Context.ConnectionId] = userConnection;
 
              await Clients.Group(userConnection.Room).SendAsync("ReceiveMessage", _botUser, $"{userConnection.User} has joined {userConnection.Room}");
 
-             await SendUsersConnected(userConnection.Room);*/
+             await SendUsersConnected(userConnection.Room);
 
             await Groups.AddToGroupAsync(Context.ConnectionId, userConnection.Room);
 
@@ -60,7 +61,7 @@ namespace ChatService.Hubs
         {
             if (_connections.TryGetValue(Context.ConnectionId, out UserConnection userConnection))
             {
-                //await Clients.Group(userConnection.Room).SendAsync("ReceiveMessage", userConnection.User, message);
+                await Clients.Group(userConnection.Room).SendAsync("ReceiveMessage", userConnection.User, message);
 
                 NotifyMessageReceived(userConnection.Room, userConnection.User, message);
             }

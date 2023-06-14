@@ -1,7 +1,7 @@
 ﻿
-namespace ChatService
+namespace ChatService.Observer
 {
-    public interface IChatService
+    public interface IChatObserver
     {
         void UpdateUserJoined(string room, string user);
         void UpdateUserLeft(string room, string user);

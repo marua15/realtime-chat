@@ -5,6 +5,8 @@ using Microsoft.Extensions.Hosting;
 using ChatService.Hubs;
 using System.Collections;
 using System.Collections.Generic;
+//using ChatService.ChatObserver
+using ChatService.Observer;
 
 namespace ChatService
 {
@@ -30,8 +32,8 @@ namespace ChatService
 
             services.AddSingleton<IDictionary<string, UserConnection>>(opts => new Dictionary<string, UserConnection>());
 
-            services.AddSingleton<IChatObserver, EmailNotificationObserver>();
-            services.AddSingleton<IChatObserver, SMSNotificationObserver>();
+            //services.AddSingleton<IChatObserver, EmailNotificationObserver>();
+            //services.AddSingleton<IChatObserver, SMSNotificationObserver>();
             services.AddSingleton<IDictionary<string, UserConnection>>(opts => new Dictionary<string, UserConnection>());
         }
 
