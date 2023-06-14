@@ -2,8 +2,7 @@
   "ExpandedNodes": [
     "",
     "\\ChatService",
-    "\\ChatService\\Hubs",
-    "\\ChatService\\IChatObserver"
+    "\\ChatService\\Hubs"
   ],
   "SelectedNode": "\\ChatService\\UserConnection.cs",
   "PreviewInSolutionExplorer": false
