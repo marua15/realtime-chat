@@ -13,6 +13,8 @@ const Messages = () => {
     const [messages, setMessages] = useState([]);
     const [users, setUsers] = useState([]);
   
+
+    
     const joinRoom = async (user, room) => {
       try {
         const connection = new HubConnectionBuilder()
