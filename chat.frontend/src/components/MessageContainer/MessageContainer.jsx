@@ -1,6 +1,6 @@
 import React from 'react';
 import { useEffect, useRef } from 'react';
-
+import './MessageContainer.scss'
 const MessageContainer = ({ messages }) => {
     const messageRef = useRef();
 

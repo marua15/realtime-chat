@@ -6,6 +6,7 @@ const Lobby = ({ joinRoom }) => {
   const [room, setRoom] = useState('');
 
   return (
+    <div className="fr">
     <form className="lobby"
       onSubmit={e => {
         e.preventDefault();
@@ -13,6 +14,8 @@ const Lobby = ({ joinRoom }) => {
       }}
     >
       <div className="form-group">
+        <h2>JOIN</h2>
+        <br/><br/>
         <input
           className="form-control"
           type="text"
@@ -20,13 +23,17 @@ const Lobby = ({ joinRoom }) => {
           value={user}
           onChange={e => setUser(e.target.value)}
         />
-        <input
+        <select
           className="form-control"
-          type="text"
-          placeholder="Room"
           value={room}
           onChange={e => setRoom(e.target.value)}
-        />
+        >
+          <option value="">Select a room</option>
+          <option value="room1">Room 1</option>
+          <option value="room2">Room 2</option>
+          <option value="room3">Room 3</option>
+          {/* Add more options as needed */}
+        </select>
       </div>
       <button
         className="btn btn-success"
@@ -35,7 +42,13 @@ const Lobby = ({ joinRoom }) => {
       >
         Join
       </button>
+      <br/>
+
     </form>
+    
+    <br/>
+    
+    </div>
   );
 };
 
