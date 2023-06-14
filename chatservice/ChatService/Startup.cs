@@ -29,6 +29,10 @@ namespace ChatService
             });
 
             services.AddSingleton<IDictionary<string, UserConnection>>(opts => new Dictionary<string, UserConnection>());
+
+            services.AddSingleton<IChatObserver, EmailNotificationObserver>();
+            services.AddSingleton<IChatObserver, SMSNotificationObserver>();
+            services.AddSingleton<IDictionary<string, UserConnection>>(opts => new Dictionary<string, UserConnection>());
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -37,6 +41,13 @@ namespace ChatService
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+            }
+
+            var chatHub = app.ApplicationServices.GetService<ChatHub>();
+            var observers = app.ApplicationServices.GetServices<IChatObserver>();
+            foreach (var observer in observers)
+            {
+                chatHub.AttachObserver(observer);
             }
 
             app.UseRouting();

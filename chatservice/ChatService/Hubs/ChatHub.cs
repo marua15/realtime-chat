@@ -11,19 +11,26 @@ namespace ChatService.Hubs
     {
         private readonly string _botUser;
         private readonly IDictionary<string, UserConnection> _connections;
+        private readonly List<IChatObserver> _chatObservers;
+
 
         public ChatHub(IDictionary<string, UserConnection> connections)
         {
             _botUser = "MyChat Bot";            
             _connections = connections;
+            _chatObservers = new List<IChatObserver>();
         }
 
         public override Task OnDisconnectedAsync(Exception exception)
         {
             if (_connections.TryGetValue(Context.ConnectionId, out UserConnection userConnection))
             {
+                /* _connections.Remove(Context.ConnectionId);
+                 Clients.Group(userConnection.Room).SendAsync("ReceiveMessage", _botUser, $"{userConnection.User} has left");
+                 SendUsersConnected(userConnection.Room);*/
+
                 _connections.Remove(Context.ConnectionId);
-                Clients.Group(userConnection.Room).SendAsync("ReceiveMessage", _botUser, $"{userConnection.User} has left");
+                NotifyUserLeft(userConnection.Room, userConnection.User);
                 SendUsersConnected(userConnection.Room);
             }
 
@@ -32,11 +39,19 @@ namespace ChatService.Hubs
 
         public async Task JoinRoom(UserConnection userConnection)
         {
+            /* await Groups.AddToGroupAsync(Context.ConnectionId, userConnection.Room);
+
+             _connections[Context.ConnectionId] = userConnection;
+
+             await Clients.Group(userConnection.Room).SendAsync("ReceiveMessage", _botUser, $"{userConnection.User} has joined {userConnection.Room}");
+
+             await SendUsersConnected(userConnection.Room);*/
+
             await Groups.AddToGroupAsync(Context.ConnectionId, userConnection.Room);
 
             _connections[Context.ConnectionId] = userConnection;
 
-            await Clients.Group(userConnection.Room).SendAsync("ReceiveMessage", _botUser, $"{userConnection.User} has joined {userConnection.Room}");
+            NotifyUserJoined(userConnection.Room, userConnection.User);
 
             await SendUsersConnected(userConnection.Room);
         }
@@ -45,7 +60,9 @@ namespace ChatService.Hubs
         {
             if (_connections.TryGetValue(Context.ConnectionId, out UserConnection userConnection))
             {
-                await Clients.Group(userConnection.Room).SendAsync("ReceiveMessage", userConnection.User, message);
+                //await Clients.Group(userConnection.Room).SendAsync("ReceiveMessage", userConnection.User, message);
+
+                NotifyMessageReceived(userConnection.Room, userConnection.User, message);
             }
         }
 
@@ -56,6 +73,43 @@ namespace ChatService.Hubs
                 .Select(c => c.User);
 
             return Clients.Group(room).SendAsync("UsersInRoom", users);
+        }
+
+
+        // Observer-related methods
+
+        public void AttachObserver(IChatObserver observer)
+        {
+            _chatObservers.Add(observer);
+        }
+
+        public void DetachObserver(IChatObserver observer)
+        {
+            _chatObservers.Remove(observer);
+        }
+
+        private void NotifyUserJoined(string room, string user)
+        {
+            foreach (var observer in _chatObservers)
+            {
+                observer.UpdateUserJoined(room, user);
+            }
+        }
+
+        private void NotifyUserLeft(string room, string user)
+        {
+            foreach (var observer in _chatObservers)
+            {
+                observer.UpdateUserLeft(room, user);
+            }
+        }
+
+        private void NotifyMessageReceived(string room, string user, string message)
+        {
+            foreach (var observer in _chatObservers)
+            {
+                observer.UpdateMessageReceived(room, user, message);
+            }
         }
     }
 }
