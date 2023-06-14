@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mabrchaouen\\Desktop\\S2\\DesignPattern\\realtime-chat\\chatservice\\Chatservice\\ChatService.csproj": {}
+    "c:\\Users\\mabrchaouen\\Desktop\\S2\\DesignPattern\\realtime-chat\\chatservice\\ChatService\\ChatService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mabrchaouen\\Desktop\\S2\\DesignPattern\\realtime-chat\\chatservice\\Chatservice\\ChatService.csproj": {
+    "c:\\Users\\mabrchaouen\\Desktop\\S2\\DesignPattern\\realtime-chat\\chatservice\\ChatService\\ChatService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mabrchaouen\\Desktop\\S2\\DesignPattern\\realtime-chat\\chatservice\\Chatservice\\ChatService.csproj",
+        "projectUniqueName": "c:\\Users\\mabrchaouen\\Desktop\\S2\\DesignPattern\\realtime-chat\\chatservice\\ChatService\\ChatService.csproj",
         "projectName": "ChatService",
-        "projectPath": "C:\\Users\\mabrchaouen\\Desktop\\S2\\DesignPattern\\realtime-chat\\chatservice\\Chatservice\\ChatService.csproj",
+        "projectPath": "c:\\Users\\mabrchaouen\\Desktop\\S2\\DesignPattern\\realtime-chat\\chatservice\\ChatService\\ChatService.csproj",
         "packagesPath": "C:\\Users\\mabrchaouen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mabrchaouen\\Desktop\\S2\\DesignPattern\\realtime-chat\\chatservice\\Chatservice\\obj\\",
+        "outputPath": "c:\\Users\\mabrchaouen\\Desktop\\S2\\DesignPattern\\realtime-chat\\chatservice\\ChatService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mabrchaouen\\AppData\\Roaming\\NuGet\\NuGet.Config",

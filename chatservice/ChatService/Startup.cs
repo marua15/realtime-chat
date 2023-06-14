@@ -19,14 +19,6 @@ namespace ChatService
             services.AddCors(options =>
             {
                 options.AddDefaultPolicy(builder =>
-<<<<<<<< HEAD:chatservice/Startup.cs
-                {
-                    builder.WithOrigins("http://localhost:5173")
-                        .AllowAnyHeader()
-                        .AllowAnyMethod()
-                        .AllowCredentials();
-                });
-========
                     {
                         builder.WithOrigins("http://localhost:5173")
                             .AllowAnyHeader()
@@ -34,7 +26,6 @@ namespace ChatService
                             .SetIsOriginAllowed((host) => true )
                             .AllowCredentials();
                     });
->>>>>>>> c769e1096bc3126a54005b880f78cd5ba6903b42:chatservice/ChatService/Startup.cs
             });
 
             services.AddSingleton<IDictionary<string, UserConnection>>(opts => new Dictionary<string, UserConnection>());

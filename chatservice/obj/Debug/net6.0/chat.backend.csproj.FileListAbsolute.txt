@@ -1,6 +1,0 @@
-C:\Users\mabrchaouen\Desktop\S2\DesignPattern\realtime-chat\ChatService\obj\Debug\net6.0\chat.backend.csproj.AssemblyReference.cache
-C:\Users\mabrchaouen\Desktop\S2\DesignPattern\realtime-chat\ChatService\obj\Debug\net6.0\chat.backend.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\mabrchaouen\Desktop\S2\DesignPattern\realtime-chat\ChatService\obj\Debug\net6.0\chat.backend.AssemblyInfoInputs.cache
-C:\Users\mabrchaouen\Desktop\S2\DesignPattern\realtime-chat\ChatService\obj\Debug\net6.0\chat.backend.AssemblyInfo.cs
-C:\Users\mabrchaouen\Desktop\S2\DesignPattern\realtime-chat\ChatService\obj\Debug\net6.0\chat.backend.csproj.CoreCompileInputs.cache
-C:\Users\mabrchaouen\Desktop\S2\DesignPattern\realtime-chat\ChatService\obj\Debug\net6.0\chat.backend.MvcApplicationPartsAssemblyInfo.cache
