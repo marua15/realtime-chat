@@ -16,7 +16,7 @@ const Messages = () => {
     const joinRoom = async (user, room) => {
       try {
         const connection = new HubConnectionBuilder()
-          .withUrl("https://localhost:44382/chat")
+          .withUrl("http://localhost:5000/chat")
           .configureLogging(LogLevel.Information)
           .build();
   
@@ -63,7 +63,7 @@ const Messages = () => {
       <hr className='line' />
       {!connection
         ? <Lobby joinRoom={joinRoom} />
-        : <Chat sendMessage={sendMessage} messages={messages} users={users} closeConnection={closeConnection} />}
+        : <Chat  messages={messages} users={users} sendMessage={sendMessage} closeConnection={closeConnection} />}
     </div>
   
 )}

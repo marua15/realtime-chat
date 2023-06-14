@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
+import './ConnectedUsers.scss'
 
 // eslint-disable-next-line react/prop-types
 const ConnectedUsers = ({ users }) => <div className='user-list'>

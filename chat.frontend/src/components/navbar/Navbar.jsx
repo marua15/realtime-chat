@@ -23,7 +23,10 @@ const Navbar = () => {
       <div className="container">
         <div className="logo">
           <div className="text">
+          <Link to="/" className='link'>               
+
              <span>ChatX</span>
+          </Link>
           </div>
         </div>
         <div className= {pathname !=="/" ? "join " :""}>
