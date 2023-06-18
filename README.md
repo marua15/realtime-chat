@@ -3,6 +3,17 @@
 Ce projet est une application de chat en temps réel développée avec React et SignalR. Il permet à plusieurs utilisateurs de se connecter à une salle de discussion et d'échanger des messages en temps réel.
 
 ## Technologies utilisées
+<br/>
+
+
+***Client:***
+<br/>
+
+<div style="border: 1px solid black; padding: 5px; display: inline-block;">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Vitejs-logo.svg/1039px-Vitejs-logo.svg.png" alt="VITE" width="25" height="25">
+  - Vite : un outil de build rapide et minimaliste pour les applications web.
+
+</div>
 
 <div style="border: 1px solid black; padding: 5px; display: inline-block;">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/768px-React-icon.svg.png" alt="REACT" width="25" height="25">
@@ -10,24 +21,47 @@ Ce projet est une application de chat en temps réel développée avec React et 
 
 </div>
 <div style="border: 1px solid black; padding: 5px; display: inline-block;">
-  <img src="https://www.brainbeast.best/wp-content/uploads/2021/12/signalr.png" alt="SignalR" width="25" height="25">
-  - SignalR : une bibliothèque de messagerie en temps réel pour les applications web.
-
-</div>
-<div style="border: 1px solid black; padding: 5px; display: inline-block;">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/640px-HTML5_logo_and_wordmark.svg.png" alt="html" width="25" height="25">
-- HTML : le langage de balisage utilisé pour structurer l'interface utilisateur.
-</div>
-<div style="border: 1px solid black; padding: 5px; display: inline-block;">
   <img src="https://sass-lang.com/assets/img/styleguide/seal-color-aef0354c.png" alt="sass" width="25" height="25">
   - Sass (SCSS) : un préprocesseur CSS pour des styles plus avancés et modulaires.
 
 </div>
+
+<div style="border: 1px solid black; padding: 5px; display: inline-block;">
+  <img src="https://user-images.githubusercontent.com/3104648/28351989-7f68389e-6c4b-11e7-9bf2-e9fcd4977e7a.png" alt="PWA" width="25" height="25">
+  - PWA : Progressive Web App, permettant une expérience utilisateur améliorée sur les appareils mobiles.
+
+</div>
+<!--
+<div style="border: 1px solid black; padding: 5px; display: inline-block;">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/640px-HTML5_logo_and_wordmark.svg.png" alt="html" width="25" height="25">
+- HTML : le langage de balisage utilisé pour structurer l'interface utilisateur.
+</div>
+-->
 <div style="border: 1px solid black; padding: 5px; display: inline-block;">
   <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="js" width="25" height="25">
   - JavaScript : le langage de programmation principal utilisé pour le développement de l'application.
 
 </div>
+
+<div style="border: 1px solid black; padding: 5px; display: inline-block;">
+  <img src="https://www.hkinfosoft.com/wp-content/uploads/2019/10/lazy_loading_componant.png" alt="js" width="60" height="25">
+- Lazy loading : une technique de chargement différé des ressources pour améliorer les performances de l'application.
+
+</div>
+
+<br/>
+
+***Server:***
+<br/>
+
+<div style="border: 1px solid black; padding: 5px; display: inline-block;">
+  <img src="https://www.brainbeast.best/wp-content/uploads/2021/12/signalr.png" alt="SignalR" width="25" height="25">
+  - SignalR : une bibliothèque de messagerie en temps réel pour les applications web.
+
+</div>
+
+
+
 
 
 <div style="border: 1px solid black; padding: 5px; display: inline-block;">
@@ -42,17 +76,6 @@ Ce projet est une application de chat en temps réel développée avec React et 
 </div>
 
 
-<div style="border: 1px solid black; padding: 5px; display: inline-block;">
-  <img src="https://user-images.githubusercontent.com/3104648/28351989-7f68389e-6c4b-11e7-9bf2-e9fcd4977e7a.png" alt="PWA" width="25" height="25">
-  - PWA : Progressive Web App, permettant une expérience utilisateur améliorée sur les appareils mobiles.
-
-</div>
-
-<div style="border: 1px solid black; padding: 5px; display: inline-block;">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Vitejs-logo.svg/1039px-Vitejs-logo.svg.png" alt="VITE" width="25" height="25">
-  - Vite : un outil de build rapide et minimaliste pour les applications web.
-
-</div>
 
 
 <div style="border: 1px solid black; padding: 5px; display: inline-block;">
