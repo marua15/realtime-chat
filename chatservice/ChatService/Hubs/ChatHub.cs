@@ -17,7 +17,7 @@ namespace ChatService.Hubs
 
         public ChatHub(IDictionary<string, UserConnection> connections)
         {
-            _botUser = "MyChat Bot";            
+            _botUser = "ChatX Bot";            
             _connections = connections;
             _chatObservers = new List<IChatObserver>();
         }

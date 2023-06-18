@@ -2,6 +2,7 @@
 import React from 'react';
 import "./Pricing.scss"
 import { LazyLoadImage } from "react-lazy-load-image-component";
+import { Link } from 'react-router-dom'
 
 
 const Pricing = () => {
@@ -20,8 +21,9 @@ const Pricing = () => {
             </div>
             <br/>
             <div className="join">
-                        <button className="signup-btn">Sign Up for Free</button>
-
+              <Link to="/mssg" className='link'>               
+                <button className="signup-btn">Sign Up for Free</button>
+              </Link>
             </div>
         </div>
         
