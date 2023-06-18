@@ -8,7 +8,7 @@ const Footer = () => {
   const {pathname} =  useLocation()
 
   return (
-    <div className= {pathname =="/" ? " " :"hide"}>
+    <div className= {pathname =="/" ? " " :"h hide"}>
         <footer className="footer">
     <div className="waves">
       <div className="wave" id="wave1"></div>
