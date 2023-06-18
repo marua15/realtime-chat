@@ -64,6 +64,9 @@ namespace ChatService.Hubs
                 await Clients.Group(userConnection.Room).SendAsync("ReceiveMessage", userConnection.User, message);
 
                 NotifyMessageReceived(userConnection.Room, userConnection.User, message);
+                await Clients.Caller.SendAsync("ReceiveNotification", userConnection.User, message);
+               // await Clients.All.SendAsync("ReceiveNotification", notification);
+
             }
         }
 

@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\ChatService"
+    "\\ChatService",
+    "\\ChatService\\Hubs",
+    "\\ChatService\\Observer"
   ],
+  "SelectedNode": "\\ChatService\\Observer",
   "PreviewInSolutionExplorer": false
 }
