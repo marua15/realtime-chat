@@ -12,9 +12,9 @@ function App() {
   const Layout = () => {
     return (
       <div className="app">
+        
         <Navbar />
         <Outlet />
-
         <Footer /> 
       </div>
     );
