@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\mabrchaouen\\.nuget\\packages\\": {}
+    "C:\\Users\\pro\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\mabrchaouen\\Desktop\\S2\\DesignPattern\\realtime-chat\\chatservice\\ChatService\\ChatService.csproj",
+      "projectUniqueName": "C:\\Users\\pro\\OneDrive - Universite Abdelmalek Essaadi\\Documents\\LSI\\S2\\Design pattern\\realtime-chat\\chatservice\\ChatService\\ChatService.csproj",
       "projectName": "ChatService",
-      "projectPath": "c:\\Users\\mabrchaouen\\Desktop\\S2\\DesignPattern\\realtime-chat\\chatservice\\ChatService\\ChatService.csproj",
-      "packagesPath": "C:\\Users\\mabrchaouen\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\mabrchaouen\\Desktop\\S2\\DesignPattern\\realtime-chat\\chatservice\\ChatService\\obj\\",
+      "projectPath": "C:\\Users\\pro\\OneDrive - Universite Abdelmalek Essaadi\\Documents\\LSI\\S2\\Design pattern\\realtime-chat\\chatservice\\ChatService\\ChatService.csproj",
+      "packagesPath": "C:\\Users\\pro\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\pro\\OneDrive - Universite Abdelmalek Essaadi\\Documents\\LSI\\S2\\Design pattern\\realtime-chat\\chatservice\\ChatService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\mabrchaouen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\pro\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -28,7 +28,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -65,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,10 +1,14 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './Footer.scss'
 import { LazyLoadImage } from "react-lazy-load-image-component";
+import { useLocation } from 'react-router-dom'
 
 const Footer = () => {
+
+  const {pathname} =  useLocation()
+
   return (
-    <div>
+    <div className= {pathname =="/" ? " " :"hide"}>
         <footer className="footer">
     <div className="waves">
       <div className="wave" id="wave1"></div>
