@@ -1,0 +1,78 @@
+C:\Users\pro\OneDrive - Universite Abdelmalek Essaadi\Bureau\chatservice\ChatService\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\pro\OneDrive - Universite Abdelmalek Essaadi\Bureau\chatservice\ChatService\bin\Debug\net6.0\appsettings.json
+C:\Users\pro\OneDrive - Universite Abdelmalek Essaadi\Bureau\chatservice\ChatService\bin\Debug\net6.0\ChatService.exe
+C:\Users\pro\OneDrive - Universite Abdelmalek Essaadi\Bureau\chatservice\ChatService\bin\Debug\net6.0\ChatService.deps.json
+C:\Users\pro\OneDrive - Universite Abdelmalek Essaadi\Bureau\chatservice\ChatService\bin\Debug\net6.0\ChatService.runtimeconfig.json
+C:\Users\pro\OneDrive - Universite Abdelmalek Essaadi\Bureau\chatservice\ChatService\bin\Debug\net6.0\ChatService.dll
+C:\Users\pro\OneDrive - Universite Abdelmalek Essaadi\Bureau\chatservice\ChatService\bin\Debug\net6.0\ChatService.pdb
+C:\Users\pro\OneDrive - Universite Abdelmalek Essaadi\Bureau\chatservice\ChatService\obj\Debug\net6.0\ChatService.csproj.AssemblyReference.cache
+C:\Users\pro\OneDrive - Universite Abdelmalek Essaadi\Bureau\chatservice\ChatService\obj\Debug\net6.0\ChatService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pro\OneDrive - Universite Abdelmalek Essaadi\Bureau\chatservice\ChatService\obj\Debug\net6.0\ChatService.AssemblyInfoInputs.cache
+C:\Users\pro\OneDrive - Universite Abdelmalek Essaadi\Bureau\chatservice\ChatService\obj\Debug\net6.0\ChatService.AssemblyInfo.cs
+C:\Users\pro\OneDrive - Universite Abdelmalek Essaadi\Bureau\chatservice\ChatService\obj\Debug\net6.0\ChatService.csproj.CoreCompileInputs.cache
+C:\Users\pro\OneDrive - Universite Abdelmalek Essaadi\Bureau\chatservice\ChatService\obj\Debug\net6.0\ChatService.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\pro\OneDrive - Universite Abdelmalek Essaadi\Bureau\chatservice\ChatService\obj\Debug\net6.0\staticwebassets\msbuild.ChatService.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\pro\OneDrive - Universite Abdelmalek Essaadi\Bureau\chatservice\ChatService\obj\Debug\net6.0\staticwebassets\msbuild.build.ChatService.props
+C:\Users\pro\OneDrive - Universite Abdelmalek Essaadi\Bureau\chatservice\ChatService\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ChatService.props
+C:\Users\pro\OneDrive - Universite Abdelmalek Essaadi\Bureau\chatservice\ChatService\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ChatService.props
+C:\Users\pro\OneDrive - Universite Abdelmalek Essaadi\Bureau\chatservice\ChatService\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\pro\OneDrive - Universite Abdelmalek Essaadi\Bureau\chatservice\ChatService\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\pro\OneDrive - Universite Abdelmalek Essaadi\Bureau\chatservice\ChatService\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\pro\OneDrive - Universite Abdelmalek Essaadi\Bureau\chatservice\ChatService\obj\Debug\net6.0\scopedcss\bundle\ChatService.styles.css
+C:\Users\pro\OneDrive - Universite Abdelmalek Essaadi\Bureau\chatservice\ChatService\obj\Debug\net6.0\ChatService.dll
+C:\Users\pro\OneDrive - Universite Abdelmalek Essaadi\Bureau\chatservice\ChatService\obj\Debug\net6.0\refint\ChatService.dll
+C:\Users\pro\OneDrive - Universite Abdelmalek Essaadi\Bureau\chatservice\ChatService\obj\Debug\net6.0\ChatService.pdb
+C:\Users\pro\OneDrive - Universite Abdelmalek Essaadi\Bureau\chatservice\ChatService\obj\Debug\net6.0\ChatService.genruntimeconfig.cache
+C:\Users\pro\OneDrive - Universite Abdelmalek Essaadi\Bureau\chatservice\ChatService\obj\Debug\net6.0\ref\ChatService.dll
+C:\Users\pro\OneDrive - Universite Abdelmalek Essaadi\Documents\LSI\S2\Design pattern\realtime-chat\chatservice\ChatService\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\pro\OneDrive - Universite Abdelmalek Essaadi\Documents\LSI\S2\Design pattern\realtime-chat\chatservice\ChatService\bin\Debug\net6.0\appsettings.json
+C:\Users\pro\OneDrive - Universite Abdelmalek Essaadi\Documents\LSI\S2\Design pattern\realtime-chat\chatservice\ChatService\bin\Debug\net6.0\ChatService.exe
+C:\Users\pro\OneDrive - Universite Abdelmalek Essaadi\Documents\LSI\S2\Design pattern\realtime-chat\chatservice\ChatService\bin\Debug\net6.0\ChatService.deps.json
+C:\Users\pro\OneDrive - Universite Abdelmalek Essaadi\Documents\LSI\S2\Design pattern\realtime-chat\chatservice\ChatService\bin\Debug\net6.0\ChatService.runtimeconfig.json
+C:\Users\pro\OneDrive - Universite Abdelmalek Essaadi\Documents\LSI\S2\Design pattern\realtime-chat\chatservice\ChatService\bin\Debug\net6.0\ChatService.dll
+C:\Users\pro\OneDrive - Universite Abdelmalek Essaadi\Documents\LSI\S2\Design pattern\realtime-chat\chatservice\ChatService\bin\Debug\net6.0\ChatService.pdb
+C:\Users\pro\OneDrive - Universite Abdelmalek Essaadi\Documents\LSI\S2\Design pattern\realtime-chat\chatservice\ChatService\obj\Debug\net6.0\ChatService.csproj.AssemblyReference.cache
+C:\Users\pro\OneDrive - Universite Abdelmalek Essaadi\Documents\LSI\S2\Design pattern\realtime-chat\chatservice\ChatService\obj\Debug\net6.0\ChatService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pro\OneDrive - Universite Abdelmalek Essaadi\Documents\LSI\S2\Design pattern\realtime-chat\chatservice\ChatService\obj\Debug\net6.0\ChatService.AssemblyInfoInputs.cache
+C:\Users\pro\OneDrive - Universite Abdelmalek Essaadi\Documents\LSI\S2\Design pattern\realtime-chat\chatservice\ChatService\obj\Debug\net6.0\ChatService.AssemblyInfo.cs
+C:\Users\pro\OneDrive - Universite Abdelmalek Essaadi\Documents\LSI\S2\Design pattern\realtime-chat\chatservice\ChatService\obj\Debug\net6.0\ChatService.csproj.CoreCompileInputs.cache
+C:\Users\pro\OneDrive - Universite Abdelmalek Essaadi\Documents\LSI\S2\Design pattern\realtime-chat\chatservice\ChatService\obj\Debug\net6.0\ChatService.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\pro\OneDrive - Universite Abdelmalek Essaadi\Documents\LSI\S2\Design pattern\realtime-chat\chatservice\ChatService\obj\Debug\net6.0\staticwebassets\msbuild.ChatService.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\pro\OneDrive - Universite Abdelmalek Essaadi\Documents\LSI\S2\Design pattern\realtime-chat\chatservice\ChatService\obj\Debug\net6.0\staticwebassets\msbuild.build.ChatService.props
+C:\Users\pro\OneDrive - Universite Abdelmalek Essaadi\Documents\LSI\S2\Design pattern\realtime-chat\chatservice\ChatService\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ChatService.props
+C:\Users\pro\OneDrive - Universite Abdelmalek Essaadi\Documents\LSI\S2\Design pattern\realtime-chat\chatservice\ChatService\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ChatService.props
+C:\Users\pro\OneDrive - Universite Abdelmalek Essaadi\Documents\LSI\S2\Design pattern\realtime-chat\chatservice\ChatService\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\pro\OneDrive - Universite Abdelmalek Essaadi\Documents\LSI\S2\Design pattern\realtime-chat\chatservice\ChatService\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\pro\OneDrive - Universite Abdelmalek Essaadi\Documents\LSI\S2\Design pattern\realtime-chat\chatservice\ChatService\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\pro\OneDrive - Universite Abdelmalek Essaadi\Documents\LSI\S2\Design pattern\realtime-chat\chatservice\ChatService\obj\Debug\net6.0\scopedcss\bundle\ChatService.styles.css
+C:\Users\pro\OneDrive - Universite Abdelmalek Essaadi\Documents\LSI\S2\Design pattern\realtime-chat\chatservice\ChatService\obj\Debug\net6.0\ChatService.dll
+C:\Users\pro\OneDrive - Universite Abdelmalek Essaadi\Documents\LSI\S2\Design pattern\realtime-chat\chatservice\ChatService\obj\Debug\net6.0\refint\ChatService.dll
+C:\Users\pro\OneDrive - Universite Abdelmalek Essaadi\Documents\LSI\S2\Design pattern\realtime-chat\chatservice\ChatService\obj\Debug\net6.0\ChatService.pdb
+C:\Users\pro\OneDrive - Universite Abdelmalek Essaadi\Documents\LSI\S2\Design pattern\realtime-chat\chatservice\ChatService\obj\Debug\net6.0\ChatService.genruntimeconfig.cache
+C:\Users\pro\OneDrive - Universite Abdelmalek Essaadi\Documents\LSI\S2\Design pattern\realtime-chat\chatservice\ChatService\obj\Debug\net6.0\ref\ChatService.dll
+C:\Users\mabrchaouen\Desktop\S2\DesignPattern\realtime-chat\chatservice\Chatservice\obj\Debug\net6.0\ChatService.csproj.AssemblyReference.cache
+C:\Users\mabrchaouen\Desktop\S2\DesignPattern\realtime-chat\chatservice\Chatservice\obj\Debug\net6.0\ChatService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mabrchaouen\Desktop\S2\DesignPattern\realtime-chat\chatservice\Chatservice\obj\Debug\net6.0\ChatService.AssemblyInfoInputs.cache
+C:\Users\mabrchaouen\Desktop\S2\DesignPattern\realtime-chat\chatservice\Chatservice\obj\Debug\net6.0\ChatService.AssemblyInfo.cs
+C:\Users\mabrchaouen\Desktop\S2\DesignPattern\realtime-chat\chatservice\Chatservice\obj\Debug\net6.0\ChatService.csproj.CoreCompileInputs.cache
+C:\Users\mabrchaouen\Desktop\S2\DesignPattern\realtime-chat\chatservice\Chatservice\obj\Debug\net6.0\ChatService.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\mabrchaouen\Desktop\S2\DesignPattern\realtime-chat\chatservice\Chatservice\obj\Debug\net6.0\ChatService.dll
+C:\Users\mabrchaouen\Desktop\S2\DesignPattern\realtime-chat\chatservice\Chatservice\obj\Debug\net6.0\refint\ChatService.dll
+C:\Users\mabrchaouen\Desktop\S2\DesignPattern\realtime-chat\chatservice\Chatservice\obj\Debug\net6.0\ChatService.pdb
+C:\Users\mabrchaouen\Desktop\S2\DesignPattern\realtime-chat\chatservice\ChatService\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\mabrchaouen\Desktop\S2\DesignPattern\realtime-chat\chatservice\ChatService\bin\Debug\net6.0\appsettings.json
+C:\Users\mabrchaouen\Desktop\S2\DesignPattern\realtime-chat\chatservice\ChatService\bin\Debug\net6.0\ChatService.exe
+C:\Users\mabrchaouen\Desktop\S2\DesignPattern\realtime-chat\chatservice\ChatService\bin\Debug\net6.0\ChatService.deps.json
+C:\Users\mabrchaouen\Desktop\S2\DesignPattern\realtime-chat\chatservice\ChatService\bin\Debug\net6.0\ChatService.runtimeconfig.json
+C:\Users\mabrchaouen\Desktop\S2\DesignPattern\realtime-chat\chatservice\ChatService\bin\Debug\net6.0\ChatService.dll
+C:\Users\mabrchaouen\Desktop\S2\DesignPattern\realtime-chat\chatservice\ChatService\bin\Debug\net6.0\ChatService.pdb
+C:\Users\mabrchaouen\Desktop\S2\DesignPattern\realtime-chat\chatservice\ChatService\obj\Debug\net6.0\staticwebassets\msbuild.ChatService.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\mabrchaouen\Desktop\S2\DesignPattern\realtime-chat\chatservice\ChatService\obj\Debug\net6.0\staticwebassets\msbuild.build.ChatService.props
+C:\Users\mabrchaouen\Desktop\S2\DesignPattern\realtime-chat\chatservice\ChatService\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ChatService.props
+C:\Users\mabrchaouen\Desktop\S2\DesignPattern\realtime-chat\chatservice\ChatService\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ChatService.props
+C:\Users\mabrchaouen\Desktop\S2\DesignPattern\realtime-chat\chatservice\ChatService\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\mabrchaouen\Desktop\S2\DesignPattern\realtime-chat\chatservice\ChatService\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\mabrchaouen\Desktop\S2\DesignPattern\realtime-chat\chatservice\ChatService\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\mabrchaouen\Desktop\S2\DesignPattern\realtime-chat\chatservice\ChatService\obj\Debug\net6.0\scopedcss\bundle\ChatService.styles.css
+C:\Users\mabrchaouen\Desktop\S2\DesignPattern\realtime-chat\chatservice\ChatService\obj\Debug\net6.0\ChatService.genruntimeconfig.cache
+C:\Users\mabrchaouen\Desktop\S2\DesignPattern\realtime-chat\chatservice\ChatService\obj\Debug\net6.0\ref\ChatService.dll

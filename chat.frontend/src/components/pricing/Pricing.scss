@@ -1,0 +1,60 @@
+.pricing{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    background-color:rgb(234, 242, 255);
+    .container{
+        width: 1300px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .left{
+        img{
+            height: 100%;
+            width: 500px;
+            object-fit: cover;
+        }
+
+    }
+
+    .right{
+        h2{
+            font-size: 50px;
+            font-family: "Montserrat", sans-serif;
+
+        }
+        .para{
+            font-size: 20px;
+            font-family: "Montserrat", sans-serif;
+
+        }
+        .join{
+            
+            align-content: center;
+            display: flex;
+            display: flex;
+            justify-content: center; /* Ajout de la propriété */
+            align-items: center; /* Ajout de la propriété */
+
+            button{
+                width: 120px;
+                height: 50px;
+                border-radius: 5px;
+                font-weight: bold;
+                background-color:rgb(74, 127, 218);
+                color: white;
+                border: none;
+    
+                cursor: pointer;
+                &:hover{
+                    background-color: rgb(108, 135, 222);
+                    color: white;
+                 }
+    
+    
+            }
+        }
+        
+    }
+}
