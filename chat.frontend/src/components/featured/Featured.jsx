@@ -19,6 +19,7 @@ const Featured = () => {
                     </Link>
                 </div>
             </div>
+            
             <div className="right">
                 <LazyLoadImage src="./img/messenger.png" alt="" />
             </div>
