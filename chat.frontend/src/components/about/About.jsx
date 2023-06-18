@@ -29,6 +29,7 @@ const About = () => {
                 {/* <div className="join">
                         <button>Join</button>
                 </div> */}
+                
             </div>
             <div className="right">
                  <LazyLoadImage src="./img/About.png" alt="" /> 
@@ -36,6 +37,7 @@ const About = () => {
         </div>
         <br/>
         <br/>
+
 
     </div>
     
