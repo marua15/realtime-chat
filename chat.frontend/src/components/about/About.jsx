@@ -34,6 +34,9 @@ const About = () => {
                  <LazyLoadImage src="./img/About.png" alt="" /> 
             </div>
         </div>
+        <br/>
+        <br/>
+
     </div>
     
       )

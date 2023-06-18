@@ -4,6 +4,7 @@
     display: flex;
     justify-content: center;
     background-color:rgb(234, 242, 255);
+    padding-bottom: 80px;
     .container{
         width: 1300px;
         display: flex;
@@ -35,7 +36,8 @@
                 background-color:rgb(97, 182, 168);
                 color: white;
                 border: none;
-    
+                box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
                 cursor: pointer;
                 &:hover{
                     background-color: rgb(113, 203, 188);
