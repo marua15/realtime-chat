@@ -94,7 +94,7 @@ Ce projet est une application de chat en temps réel développée avec React et 
 6. Accédez au répertoire du projet frontend.
 7. Exécutez la commande `npm install` pour installer les dépendances.
 8. Exécutez la commande `npm run dev` pour démarrer l'application frontend en mode développement.
-9. Ouvrez votre navigateur et accédez à l'URL `http://localhost::5173` pour utiliser l'application.
+9. Ouvrez votre navigateur et accédez à l'URL `http://localhost:5173` pour utiliser l'application.
 
 
 
