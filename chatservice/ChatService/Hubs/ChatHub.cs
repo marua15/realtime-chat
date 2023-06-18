@@ -17,7 +17,7 @@ namespace ChatService.Hubs
 
         public ChatHub(IDictionary<string, UserConnection> connections)
         {
-            _botUser = "MyChat Bot";            
+            _botUser = "ChatX Bot";            
             _connections = connections;
             _chatObservers = new List<IChatObserver>();
         }
@@ -64,6 +64,9 @@ namespace ChatService.Hubs
                 await Clients.Group(userConnection.Room).SendAsync("ReceiveMessage", userConnection.User, message);
 
                 NotifyMessageReceived(userConnection.Room, userConnection.User, message);
+                await Clients.Caller.SendAsync("ReceiveNotification", userConnection.User, message);
+               // await Clients.All.SendAsync("ReceiveNotification", notification);
+
             }
         }
 
