@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Featured.scss"
 import { LazyLoadImage } from "react-lazy-load-image-component";
+import { Link } from 'react-router-dom'
 
 const Featured = () => {
   return (
@@ -13,7 +14,9 @@ const Featured = () => {
                 <br/>
                 
                 <div className="join">
-                        <button>Join</button>
+                    <Link to="/mssg" className='link'>               
+                            <button>Join</button>
+                    </Link>
                 </div>
             </div>
             <div className="right">
