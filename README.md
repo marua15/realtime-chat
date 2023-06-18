@@ -44,7 +44,7 @@ Ce projet est une application de chat en temps réel développée avec React et 
 </div>
 
 <div style="border: 1px solid black; padding: 5px; display: inline-block;">
-  <img src="https://www.hkinfosoft.com/wp-content/uploads/2019/10/lazy_loading_componant.png" alt="js" width="60" height="25">
+  <img src="https://www.hkinfosoft.com/wp-content/uploads/2019/10/lazy_loading_componant.png" alt="js" width="70" height="25">
 - Lazy loading : une technique de chargement différé des ressources pour améliorer les performances de l'application.
 
 </div>
