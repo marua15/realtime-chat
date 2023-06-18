@@ -15,7 +15,11 @@
         "react": "^18.2.0",
         "react-bootstrap": "^2.7.4",
         "react-dom": "^18.2.0",
+<<<<<<< HEAD
         "react-lazy-load-image-component": "^1.6.0",
+=======
+        "react-pwa-install": "^1.0.12",
+>>>>>>> 1e78432fce35a152f85cf986da0a72b8baa53950
         "react-router-dom": "^6.12.1",
         "sass": "^1.63.3"
     },
