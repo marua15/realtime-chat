@@ -5,6 +5,6 @@
     "\\ChatService\\Hubs",
     "\\ChatService\\Observer"
   ],
-  "SelectedNode": "\\ChatService\\Observer",
+  "SelectedNode": "\\ChatService\\Hubs\\ChatHub.cs",
   "PreviewInSolutionExplorer": false
 }
